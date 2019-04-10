@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IT Worker | responsive portfolio template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/all.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.sea.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Arkadiusz Ludwikowski</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Wstęp</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">O mnie</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">Moje projekty</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello, Witaj !</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">Jestem programistą i game developerem. Nazywam się Arkadiusz&nbsp;Ludwikowski.</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">O mnie</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <p>Nazywam się Arkadiusz Ludwikowski. Obecnie studiuję zaocznie informatykę na Politechnice Krakowskiej oraz jestem absolwentem Technikum Łączności w Krakowie.</p>
+            <p>Chciałbym rozpocząć ścieżkę kariery jako programista. W wolnych chwilach tworzę gry. Możesz zapoznać się z nimi poniżej, gdzie prezentuję również moje inne projekty.</p>
+            <p>Zapraszam do zapoznania się z moim portfolio oraz z moim CV.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">Java</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">C#</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Unity</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">SQL</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">C++</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/about.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    <section id="references" class="bg-gray">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">Moje projekty</h2>
+          </div>
+          <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">Wszystko</a></li>
+            <li><a href="#" data-filter="game">Gry</a></li>
+            <li><a href="#" data-filter="app">Aplikacje</a></li>
+            <li><a href="#" data-filter="web">Strony internetowe</a></li>
+          </ul>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+                  <div data-category="web" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-1.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Kino Planeta</h3>
+                            <p>Strona do zarządzania kinem.</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/project-1/1.jpg,img/project-1/2.jpg,img/project-1/3.jpg,img/project-1/4.jpg" class="sr-only reference-description">
+                        <p>Projekt studencki. Strona kina wraz z systemem CMS oraz aplikacja do jego obsługi.</p>
+                        <p>Napisana w języku Java (JSP). Wykorzystuje HTML i CSS. Dane przechowywane są w bazie SQLite. Hasła użytkowników są szyfrowane przy pomocy algorytmu SHA256.</p>
+                        <p class="buttons text-center"><a href="https://github.com/ArekerA/Kino" class="btn btn-outline-primary"><i class="fab fa-github"></i> Github</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="app" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-2.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">DWAY</h3>
+                            <p>Aplikacja do dzielenia się zdjęciami.</p>
+                          </div>
+                        </div></a>
+                        <div data-images="img/project-2/1.jpg,img/project-2/2.jpg,img/project-2/3.jpg" class="sr-only reference-description">
+                          <p>Projekt studencki. Aplikacja typu klient-serwer do dzielenia się zdjęciami oraz ich oceny.</p>
+                        <p> Napisana w języku Java z wykorzystaniem bazy MySQL. Hasła użytkowników są szyfrowane przy pomocy algorytmu SHA256.</p>
+                        <p class="buttons text-center"><a href="https://github.com/ArekerA/DWAYart" class="btn btn-outline-primary"><i class="fab fa-github"></i> Github</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="app" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-3.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Speedy</h3>
+                            <p>Aplikacje do zarządzania firmą logistyczną.</p>
+                          </div>
+                        </div></a>
+                        <div data-images="img/project-3/1.jpg,img/project-3/2.jpg,img/project-3/3.jpg,img/project-3/4.jpg" class="sr-only reference-description">
+                        <p>Aplikacje do obsługi spedycji, posiadająca 4 różne wersje dedykowane pod grupy pracowników. Aplikacja dla Kierowców, Magazynierów, Spedytorów oraz Serwer dla Administratora. Każda z aplikacji jest do siebie bardzo podobna, różnice polegają na funkcjonalności. Magazynierzy zarządzają magazynem mogą dodawać i usuwać towary, Spedytorzy dysponują flotom samochodów oraz kierowców, którą zarządzają tworząc zlecenia, Kierowcy mają podgląd do wykonywanych zleceń, natomiast administrator na serwerze może zarządzać użytkownikami oraz wykonywać wszystkie funkcjonalności.</p>
+                        <p>Aplikacje napisane w języku JAVA. Korzystają z dwóch typów baz danych: MySQL i postgreSQL. Hasła użytkowników są szyfrowane przy pomocy algorytmu SHA256.</p>
+                        <p class="buttons text-center"><a href="https://github.com/ArekerA/Speedy" class="btn btn-outline-primary"><i class="fab fa-github"></i> Github</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="game" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-4.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Destructive Ball</h3>
+                            <p>Zręcznościowa gra na Androida</p>
+                          </div>
+                        </div></a>
+                        <div data-images="img/project-4/1.jpg,img/project-4/2.jpg,img/project-4/3.jpg" class="sr-only reference-description">
+                          <p>Gra zręcznościowa na platformę Android. Oferuje 18 różnych poziomów.</p>
+                        <p>Wykonana na silniku Unity</p>
+                        <p class="buttons text-center"><a href="https://play.google.com/store/apps/details?id=com.ArkadiuszLudwikowski.DestructiveBall" class="btn btn-outline-primary"><i class="fab fa-google-play"></i> Sklep Play</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="app" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-5.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Quiz</h3>
+                            <p>Aplikacja do przeprowadzania testów/quizów.</p>
+                          </div>
+                        </div></a>
+                        <div data-images="img/project-5/1.jpg,img/project-5/2.jpg,img/project-5/3.jpg,img/project-5/4.jpg,img/project-5/5.jpg,img/project-5/6.jpg,img/project-5/7.jpg,img/project-5/8.jpg,img/project-5/9.jpg,img/project-5/10.jpg" class="sr-only reference-description">
+                          <p>Projekt studencki. Aplikacja typu klient-serwer do przeprowadzania testów i quizów. </p>
+                        <p>Napisana w języku Java z wykorzystaniem bazy MySQL.</p>
+                        <p class="buttons text-center"><a href="https://github.com/ArekerA/Quiz" class="btn btn-outline-primary"><i class="fab fa-github"></i> Github</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="game" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-6.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Runner3000</h3>
+                            <p>Zręcznościowa gra na Androida</p>
+                          </div>
+                        </div></a>
+                        <div data-images="img/project-6/1.jpg,img/project-6/2.jpg,img/project-6/3.jpg,img/project-6/4.jpg,img/project-6/5.jpg" class="sr-only reference-description">
+                          <p>Gra zręcznościowa typu endless runner na platformę Android.</p>
+                        <p>Stworzona przy pomocy silnika Game Maker Studio 1.4</p>
+                        <p class="buttons text-center"><a href="https://play.google.com/store/apps/details?id=com.ArkadiuszLudwikowski.Runner3000" class="btn btn-outline-primary"><i class="fab fa-google-play"></i> Sklep Play</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="game" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-7.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">MiniGolf</h3>
+                            <p>Gra w mini golfa na Androida</p>
+                          </div>
+                        </div></a>
+                        <div data-images="img/project-7/1.jpg,img/project-7/2.jpg,img/project-7/3.jpg,img/project-7/4.jpg" class="sr-only reference-description">
+                          <p>Gra w mini golfa na platformę Android. W obecnej wersji (beta) do dyspozycji gracza oddano 10 poziomów.</p>
+                        <p>Stworzona przy użyciu silnika Unity.</p>
+                        <p class="buttons text-center"><a href="https://play.google.com/store/apps/details?id=com.ArkadiuszLudwikowski.MiniGolf" class="btn btn-outline-primary"><i class="fab fa-google-play"></i> Sklep Play</a></p>
+                     </div>
+                    </div>
+                  </div>
+                  <div data-category="app" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">MBACoder_</h3>
+                            <p>Aplkacja do konwersji obrazów</p>
+                          </div>
+                        </div></a>
+                        <div data-images="img/project-8/1.jpg,img/project-8/2.jpg,img/project-8/3.jpg,img/project-8/4.jpg" class="sr-only reference-description">
+                          <p>Projekt studencki. Aplikacja wykorzystująca własny format do zapisów plików graficznych. Zawiera koder i dekoder do plków BMP.</p>
+                        <p>Napisana w języku C++. Jeden pixel obrazu wykorzystuje 5 bitów danych. Format zapisuje linie obrazu od dołu do góry, podobnie jak zostało to zrealizowane w przypadku plików z rozszerzeniem .bmp. Pliki formatu MBA posiadają rozszerzenie .mba. Zastosowano dithering przy użyciu algorytmu Floyda-Steinberga.</p>
+                        <p class="buttons text-center"><a href="https://github.com/ArekerA/MBAcoder" class="btn btn-outline-primary"><i class="fab fa-github"></i> Github</a></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Skontaktuj się</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="contact-form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSfPCkfjwU3SmEsgMrcCrSdwrix6GXtfnSRWZTwRRQePie3ETw/formResponse?">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="entry.1105148802" placeholder="Twoje imię *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="entry.1507764532" placeholder="Twoje nazwisko *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="entry.1297469534" placeholder="Twój email *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="entry.372436770" placeholder="Twój telefon" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea name="entry.2114641410" placeholder="Twoja wiadomość *" rows="4" required="required" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-outline-primary">Wyślij wiadomość</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
+    <div id="map"></div>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social">
+              <a href="https://play.google.com/store/apps/developer?id=Arkadiusz+Ludwikowski" class="external play wow fadeInUp"><i class="fab fa-google-play"></i></a>
+              <a href="https://github.com/ArekerA" class="external github wow fadeInUp"><i class="fab fa-github"></i></a>
+              <a href="www.linkedin.com/in/arkadiusz-ludwikowski-77a971181" class="external linkedin wow fadeInUp"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/czarodziej.arkadiusz" class="external facebook wow fadeInUp"><i class="fab fa-facebook"></i></a>
+              <a href="mailto:arek.ludwikowski@hotmail.com" class="external email wow fadeInUp"><i class="fas fa-envelope"></i></i></a>
+            </p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© 2019 Arkadiusz Ludwikowski. Wszystkie prawa zastrzeżone. <a href="#" class="">PL</a>|<a href="#">EN</a></p>
+          </div>
+          <div class="col-12 mt-4">
+            <p class="template-bootstrapious">Template by <a href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a href="https://fity.cz/ostrava">Fity</a></p>
+            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
